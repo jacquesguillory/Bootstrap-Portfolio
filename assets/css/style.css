@@ -1,0 +1,141 @@
+
+/*background image*/
+body {
+	background: url(../images/rough_diagonal.png);
+}
+
+.header {
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+	text-align: center;
+	font-size: 25px;
+	width: 250px;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 50px;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.linkstyle {
+
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	
+}
+
+
+h2 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 10px;
+	margin-left: 10px;
+	color: #777777;
+	line-height: 25px;
+}
+
+/*my picture*/
+#profile-pic{
+	float: left;
+	margin: 10px;
+}
+
+/*about me box and contact box*/
+#main {
+	margin-bottom: 20px;
+	margin-top: 50px;
+	padding: 20px;
+	border: 2px solid #dddddd;
+	float:left;
+	background-color: #ffffff;
+}
+
+/*contact box*/
+#contact {
+	width:100%;
+	margin-top: 50px;
+	padding: 20px;
+	border: 2px solid #dddddd;
+	float:left;
+	background-color: #ffffff;
+}
+
+
+#sidebar {
+	margin-top: 50px;
+	padding: 20px;
+	border: 2px solid #dddddd;
+	float: left;
+	background-color: #ffffff;
+	margin-bottom: 25px;
+}
+
+/*footer font*/
+#footfont {
+	color:white;
+}
+
+footer
+{
+	margin-top: 25px;
+	width: 100%;
+    font-size: 16px;
+    color: violet;
+    text-align:center;
+    padding: 20px;
+    background-color:#666666;
+    border-top: 7px solid #4aaaa5;
+    margin-top: 10px;
+    position: absolute;
+    overflow:hidden;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+/*setting the image captions*/
+.portfolioImages {
+	display: block;
+	text-anchor: center;
+	float: left;
+	position: relative;
+	padding: 20px;
+}
+span {
+	position: absolute;
+	padding: 15px;
+	width: 250px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+	#sidebar {
+		width:100%;
+		text-align: center;
+	}
+}
